@@ -78,7 +78,7 @@ animation: bounce-3 2.1s ease-in-out 0.6s infinite;
     border-radius: 100%;
     margin-top: 18%;
     width: 235px;
-    background: linear-gradient(168deg, rgba(0,255,171,1) 0%, rgba(0,255,255,1) 50%, rgba(0,0,255,1) 100%);
+    /* background: linear-gradient(168deg, rgba(0,255,171,1) 0%, rgba(0,255,255,1) 50%, rgba(0,0,255,1) 100%); */
     margin-bottom: 10px;
 }
 .me img{
