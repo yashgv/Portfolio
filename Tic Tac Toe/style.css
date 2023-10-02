@@ -1,0 +1,108 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.main{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.winner{
+    z-index: 3;
+    position: relative;
+    border: 5px solid black;
+    padding: 2px;
+    width: 300px;
+    height: 60px;
+    margin: 4px;
+    border-radius: 5px;
+}
+.winner div{
+    position: absolute;
+    top: -8px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.cover{
+    position: absolute;
+    padding: 4px;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+}
+.rel-box{
+    position: absolute;
+    padding: 4px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+
+}
+.cbox{
+    width: 98px; height: 98px;
+    z-index: -1;
+}
+.Game{
+    border: 5px solid black;
+    border-radius: 3px;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    padding: 4px;
+    display: grid;
+    gap: 3px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.box{
+    z-index: 1;
+    width: 98px; height: 98px;
+    background: gray;
+}
+.box div{
+    position: relative;
+}
+.box div h1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+}
+.x{
+    opacity: 0;
+}
+.o{
+    opacity: 0;
+}
+.reset{
+    position: relative;
+    z-index: 3;
+    border: 5px solid black;
+    padding: 2px;
+    width: 300px;
+    height: 60px;
+    margin: 4px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.reset h1{
+    position: absolute;
+    top: -8px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

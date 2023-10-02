@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Ladder</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="game">
+            <div class="winner">
+                <h1 class="red">Red Wins!</h1>
+                <h1 class="yellow">Yellow Wins</h1>
+            </div>
+            <div class="board" id="board">
+                <img src="./img2.jpg" alt="">
+            </div>
+            <div class="dice-roller">
+                <div class="dice">
+                    <h1></h1>
+                </div>
+                <div class="btn">
+                    <div class="roll-btn" onclick="roll()">
+                        <h1>Roll</h1>
+                    </div>
+                    <div class="replay-btn" ondblclick="replay()">
+                        <h1>Replay!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

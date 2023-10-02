@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Coffee Day | A Lot Can Happen Over Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c610bdc2dd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon"  href="images/logo.png">
+</head>
+<body>
+<!-- Sider -->
+    <div class="image-slider">
+        
+        <div class="slider">
+            <div class="radio">
+                <input type="radio" name="radio" id="s1">
+                <input type="radio" name="radio" id="s2">
+                <input type="radio" name="radio" id="s3">
+                <input type="radio" name="radio" id="s4">
+                <input type="radio" name="radio" id="s5">
+            </div>
+            <div id="slides">
+                <img src="images/img1.png" alt=""/>
+                <img src="images/img2.png" alt=""/>
+                <img src="images/img3.jpg" alt=""/>
+                <img src="images/img4.png" alt=""/>
+                <img src="images/img5.jpg" alt=""/>
+            </div>  
+        </div>
+    </div>
+
+ <!--Navigation  -->
+    <div class="nav" id="nav">
+        <div class="nav-left">
+            <img src="images/logo.png" id="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#">Cafe Menu</a></li>
+                <li><a href="#">E-shop <i class="fa-solid fa-cart-shopping"></i></a></li>
+                <li><a href="#">Order Online</a></li>
+                <li><a href="#">Cafe Finder/ Cafe Locater</a></li>
+                <li><a href="#">Mobile App/CCD Mobile App</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-regular fa-bell"></i></a>
+            <a href="#"><i class="fa-regular fa-user"></i></a>
+        </div>
+    </div>
+
+
+<!-- Image section -->
+    <div class="section" id="img-section">
+        <div class="img-section">
+            <div class="img">
+                <!-- <i class="fa-solid fa-arrow-right"></i> -->
+                <div class="img-btn">
+                    <div class="animation">
+                        <h1>What's New</h1>
+                    </div>
+                </div>
+                <img src="images/cake.gif">
+            </div>
+            <div class="img">
+                <div class="img-btn">
+                    <h1>Find a cafe near you</h1>
+                </div>
+                <img src="images/map-locator.gif">
+            </div>
+            <div class="img">
+                <div class="img-btn">
+                    <h1>Shop Now</h1>
+                </div>
+                <img src="images/Shop now gif new.gif">
+            </div>
+        </div>
+    </div>
+
+
+<!-- History -->
+    <div class="history-section">
+        <img src="images/history-text_0_0.png" alt="">
+        <div class="img-btn">
+            <h1>Read Our Story</h1>
+        </div>
+    </div>
+
+
+<!-- Footer -->
+    <div class="footer">
+        <div class="social">
+            <a href="#"><img src="https://img.icons8.com/cute-clipart/64/instagram-new.png"/></a>
+            <a href="#"><img src="https://img.icons8.com/fluency/48/facebook.png" alt=""></a>
+            <a href="#"><img src="https://img.icons8.com/fluency/48/youtube-play.png" alt="youtube-play"/></i></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/twitter--v1.png" alt="twitter--v1"/></a>
+            <a href="#"><img src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/></a>
+        </div>
+        <div class="line"></div>
+        <div class="links">
+            <div class="main">
+                <h5>Quick Links</h5>
+                <div class="sub">
+                    <a href="">Cafe Menu</a>
+                    <a href="">Cafe Finder/Cafe Locater</a>
+                    <a href="">Customer Care</a>
+                </div>
+            </div>
+            <div class="main">
+                <h5>Cafe Menu</h5>
+                <div class="sub">
+                    <a href="">Food For Mood</a>
+                    <a href="">Hot Classic</a>
+                    <a href="">All-Time Chillers</a>
+                    <a href="">All-Day Delights</a>
+                    <a href="">Sweet Tooth X 32</a>
+                    <a href="">Nutritional Info</a>
+                </div>
+            </div>
+            <div class="main">
+                <h5>Shop</h5>
+                <div class="sub">
+                    <a href="">Coffee Mugs & Cups</a>
+                    <a href="">Coffe Makers & Wakecup</a>
+                    <a href="">Coffee Powders</a>
+                    <a href="">Gifts</a>
+                </div>
+            </div>
+            <div class="main">
+                <h5>Business</h5>
+                <div class="sub">
+                    <a href="">Lease Enquiry</a>
+                    <a href="">Advertise With Us</a>
+                    <a href="">Coffee Vending Machine</a>
+                    <a href="">Outdoor Catering Service</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="main">
+                <h5>About Us</h5>
+                <div class="sub">
+                    <a href="">Awards</a>
+                    <a href="">Business</a>
+                    <a href="">Governance</a>
+                    <a href="">Bean To Cup</a>
+                    <a href="">News & Events</a>
+                    <a href="">Careers</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="copyright">
+            <p>&copy Cafe Coffee Day. All rights reserved.</p>
+        </div>
+    </div>
+<!-- Script for sliding images too tough -->
+    <script> 
+        var counter=1;
+    
+        document.addEventListener("DOMContentLoaded", function() {
+            setInterval(function() {
+                for(var i=1; i<6;i++){
+                    if(document.getElementById("s"+i).checked ==true){
+                        counter=i+1;
+                        break;
+                    }
+                }
+                if(counter>5){
+                    counter=1;
+                }  
+                document.getElementById("s"+counter).checked = true;
+                applyCSS();
+                counter++;
+            },5000)
+            var rbtn = document.getElementsByName("radio");
+            for (var i = 0; i < rbtn.length; i++) {
+                    rbtn[i].addEventListener("change", applyCSS);
+                }
+        });
+
+        function applyCSS() {
+            // Get the element by its ID
+            var slide = document.getElementById('slides');
+
+            // Check which radio button is selected and apply CSS accordingly
+            if (document.getElementById('s1').checked) {
+                slide.style.marginLeft="-0%"
+            } else if (document.getElementById('s2').checked) {
+                slide.style.marginLeft="-100%"
+            } else if (document.getElementById('s3').checked) {
+                slide.style.marginLeft="-200%"
+            } else if (document.getElementById('s4').checked) {
+                slide.style.marginLeft="-300%"
+            } else if (document.getElementById('s5').checked) {
+                slide.style.marginLeft="-400%"
+            }
+        }
+        
+        
+    </script>
+    <!-- for nav scroll -->
+    <script> 
+        var nav = document.getElementById("nav");
+        var img = document.getElementById("img-section");
+        var navpos  = nav.offsetTop;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (navpos <= currentScrollPos) {
+                nav.style.marginTop = "-40%";
+                // nav.style.transition = "0.1s";
+                nav.style.position = "fixed";
+            }
+            else{
+                nav.style.marginTop="0";
+                nav.style.position = "relative";
+            }
+        }
+    </script>
+</body>
+</html>

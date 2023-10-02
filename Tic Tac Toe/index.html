@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="winner">
+            <div class="w1">
+                <h1>X Wins!</h1>
+            </div>
+            <div class="w0">
+                <h1>O Wins!</h1>
+            </div>
+            <div class="Tie">
+                <h1>Tie!</h1>
+            </div>
+        </div>
+        <div class="cover">
+        </div>
+        <div class="rel-box">
+            <div class="cbox" id="cbox00">
+            </div>
+            <div class="cbox" id="cbox01">
+            </div>
+            <div class="cbox" id="cbox02">
+            </div>
+            <div class="cbox" id="cbox10">
+            </div>
+            <div class="cbox" id="cbox11">
+            </div>
+            <div class="cbox" id="cbox12">
+            </div>
+            <div class="cbox" id="cbox20">
+            </div>
+            <div class="cbox" id="cbox21">
+            </div>
+            <div class="cbox" id="cbox22">
+            </div>
+        </div>
+        <div class="Game">
+            <div class="box" onclick="fill(0,0)" id="box00">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+            <div class="box" onclick="fill(0,1)" id="box01">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+            <div class="box" onclick="fill(0,2)" id="box02">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+            <div class="box" onclick="fill(1,0)" id="box10">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div> 
+            <div class="box" onclick="fill(1,1)" id="box11">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+            <div class="box" onclick="fill(1,2)" id="box12">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+            <div class="box" onclick="fill(2,0)" id="box20">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+            <div class="box" onclick="fill(2,1)" id="box21">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+            <div class="box" onclick="fill(2,2)" id="box22">
+                <div class="x"><h1>X</h1></div>
+                <div class="o"><h1>O</h1></div>
+            </div>
+        </div>
+        <div class="reset" onclick="reset()"><h1>Reset</h1></div>
+    </div>
+    
+</body>
+</html>
