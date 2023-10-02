@@ -1,5 +1,5 @@
 # Portfolio 
-Link: https://yashvarma.vercel.app/
+https://yashvarma.vercel.app/
 ![image](https://github.com/yashgv/Portfolio/assets/130405230/a7eb8016-e948-430c-8bdd-46cb894fa893)
 
 
