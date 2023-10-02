@@ -1,5 +1,7 @@
 # Portfolio 
-Link: https://yashvarma.vercel.app/
+https://yashvarma.vercel.app/
+![image](https://github.com/yashgv/Portfolio/assets/130405230/a7eb8016-e948-430c-8bdd-46cb894fa893)
+
 
 Welcome to my online portfolio, where I express myself through code and creativity. As a dedicated student and passionate programmer, I continually update this space with the latest projects and developments in my journey.
 
