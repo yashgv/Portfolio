@@ -1,0 +1,321 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Varma</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c610bdc2dd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon"  href="image/Headlogo.png">
+</head>
+<body>
+<div id="load">
+    <div class="loader">
+        <li class="ball"></li>
+        <li class="ball"></li>
+        <li class="ball"></li>
+    </div>
+</div>
+<div id="content">
+    <div id="header">
+        <nav id="nav">
+            <img src="image/logo.png" id="logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">My Work</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="menu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" id="open" onclick="menu()"></i>
+        </nav>
+        <div class="container">
+            <div class="me">
+                <img src="image/me.JPG" alt="">
+            </div>
+            <div class="header-text">
+                <p>Programmer | Competitive Programming</p>
+                <p>| Frontend Web Developer </p>
+                <h1>Hi, I'm <span>Yash</span><br>Building this Portfolio</h1>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------About----------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/yash.png" alt="Image">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me</h1>
+                    <p>
+                        Welcome, esteemed visitors! This portfolio reflects my diverse professional skills, revealing the essence of my expertise. Explore and discover the depth of my abilities!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python and Java Fundamentals.</span><br>I have strong basics of these Programming Languages.</li>
+                            <li><span>HTML and CSS</span><br>I have very few of these skills as I learned basics while building this Portfolio!</li>
+                            <li><span>Machine Learning and Data Science</span><br>Currently Learning these!</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Python Projects</span><br>Made projects during 12th.</li>
+                            <li><span>Java</span><br>Been into a Java Bootcamp.</li>
+                            <li><span>HFC Enterprises</span><br>Currently interning at this company.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Senior Secondary Education(SSC)</span><br>Did my SSC from ST.Xavier's High School, Airoli [State Board of Maharashtra].</li>
+                            <li><span>Higher Secondary Education(HSC)</span><br>Did my HSC from New Horizon Public School, Airoli [Central Board of Secondary Education].</li>
+                            <li><span>Graduation</span><br>Studying at SIES, Nerul [Mumbai University]</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------Portfolio(My Work)------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="SnakeLadder/img2.jpg" alt="Image">
+                    <div class="layer">
+                        <h3>Snake Ladder</h3>
+                        <p>Click!</p>
+                        <a href="SnakeLadder/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Tic Tac Toe/Tic_tac_toe.svg.png" alt="Image">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>Click!</p>
+                        <a href="./Tic Tac Toe/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/CCDlogo.jpg" alt="Image">
+                    <div class="layer">
+                        <h3>CCD Clone</h3>
+                        <p>Click!</p>
+                        <a href="CCD/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>    
+                </div>
+            </div>
+            <a href="MorePf.html" class="btn">See More</a>
+        </div>
+    </div>
+    <!----------------My Achievements(Having Same Css as of Portfolio)------------>
+    <div id="achievements">
+        <div class="container">
+            <h1 class="sub-title">My Achievements</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/hfc.png" alt="Image">
+                    <div class="layer">
+                        <h3>HFC Enterprises</h3>
+                        <p>Interned at HFC enterprises</p>
+                        <a href="pdfs/HFC.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/TuringCup.png" alt="Image">
+                    <div class="layer">
+                        <h3>Turing cup</h3>
+                        <p>Competitive Programming</p>
+                        <a href="pdfs/TuringCup.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/greeting_card.png" alt="Image">
+                    <div class="layer">
+                        <h3>Newton School</h3>
+                        <p>Competitive Programming</p>
+                        <a href="image/greeting_card.png"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="MyAc.html" class="btn">See More</a>
+        </div>
+    </div>
+    <!---------------------------------My Services----------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div onclick="location.href='Python.html';">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Python</h2>
+                    <p>Strong Python Fundamentals</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div onclick="location.href='Coder.html';">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Coder</h2>
+                    <p>I am a competetive programmer.</p>
+                    <a href="">Learn more</a>
+                </div>
+                <div onclick="location.href='WebDev.html';">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>I am a Frontend Web Developer.</p>
+                    <a href="WebDev.html">Learn More</a>
+                </div>
+                
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!---------------------Contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> yv44905@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-square-phone"></i> 8369146457</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/yashvarma._?igshid=YzgyMTM2MGM="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/yashhvarma"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/_YashVarma_?t=eCmStTDqxjuDdFMqITGDGA&s=09"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://github.com/yashgv"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="pdfs/yashvarma.pdf" class="btn btn2">My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email"v placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" id="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div> 
+        </div>
+        <div class="copyright">
+            <p>&copy; YV | Made with ❤️</p>
+        </div>
+    </div>
+</div>
+
+    <script>
+        var loader=document.getElementById('load');
+        var content=document.getElementById('content');
+        window.addEventListener("load",function(){
+            loader.style.display="none";
+            content.style.display="contents";
+        })
+    </script>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links")
+        var tabcontents=document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        var sw  = window.screen.availWidth;
+        if(sw<=600){
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("nav").style.top = "0%";
+                document.getElementById("nav").style.transition = "0.4s";
+            } else {
+                document.getElementById("nav").style.top = "-100%";
+                document.getElementById("nav").style.transition = "o.5s";
+                if(flag==1){
+                    menu();
+                }
+            }
+            prevScrollpos = currentScrollPos;
+            }
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        var logo=document.getElementById("logo");
+        var opn=document.getElementById("open");
+        var nav=document.getElementById("nav");
+        var flag=0;
+        function menu(){
+            sidemenu.classList.toggle("active")
+            logo.classList.toggle("active-logo")
+            opn.classList.toggle("active-logo")
+            nav.classList.toggle("active-nav")
+            if(flag==1){
+                flag=0;
+                return 0;
+            }else flag=1;
+            // let sm=sidemenu.classList;
+            // sm.add("active");
+        }
+        
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw32afXE5UhsEXfftGW9t75popbUUZtX1xH8SE9xW5X7Ap1wUYhlRsKYkVZDwBjZ1e23w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const  msg= document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully!"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyCepLTrYOWM7LFKZyWsYin3sNxC8yx3zoI",
+          authDomain: "yashvarma-2004.firebaseapp.com",
+          projectId: "yashvarma-2004",
+          storageBucket: "yashvarma-2004.appspot.com",
+          messagingSenderId: "727023495925",
+          appId: "1:727023495925:web:4309a2cff600246897b3bc",
+          measurementId: "G-HVP353KEJS"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
